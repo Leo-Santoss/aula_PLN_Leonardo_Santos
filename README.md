@@ -2,9 +2,19 @@
 
 Assistente educacional para aprender conceitos sobre investimentos no Brasil. Este projeto está sendo desenvolvido passo a passo como parte das aulas.
 
+## Links do projeto
+
+| O quê | Link |
+|---|---|
+| Chat publicado (Streamlit Cloud) | https://aulaplnleonardosantos-ft9z6bucw9ah23swmw9uqx.streamlit.app/ |
+| API publicada (Render) | https://finbot-api-gm2o.onrender.com |
+| Documentação da API | https://finbot-api-gm2o.onrender.com/docs |
+
+No plano gratuito, a API "dorme" depois de um tempo sem uso: a primeira pergunta pode demorar cerca de 1 minuto.
+
 ## Etapa atual
 
-Na Aula 1, o projeto tem uma conversa inicial pelo terminal. O FinBot responde a perguntas gerais sobre investimentos e mantém o histórico durante a conversa.
+Na Aula 3, o FinBot conta com API em FastAPI, interface web em Streamlit, observabilidade e versionamento de prompts no Langfuse, além de grafo com LangGraph e memória de curto e longo prazo persistida no MongoDB Atlas.
 
 ## Requisitos
 
