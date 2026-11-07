@@ -24,4 +24,7 @@ services:
         value: producao         # separa os traces do Render dos locais (filtro Environment)
       - key: LANGFUSE_HOST
         value: https://us.cloud.langfuse.com
+      # Endereço do MongoDB Atlas (secreto: contém usuário e senha).
+      - key: MONGO_URL
+        sync: false
 
